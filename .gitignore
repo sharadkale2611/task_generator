@@ -1,0 +1,94 @@
+############################
+# Build artifacts
+############################
+bin/
+obj/
+out/
+
+############################
+# Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Rider / VS Code (optional)
+############################
+.idea/
+.vscode/
+
+############################
+# Logs
+############################
+*.log
+logs/
+
+############################
+# OS generated files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Environment & Secrets
+############################
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+############################
+# Sensitive config (IMPORTANT)
+############################
+# Keep main appsettings.json tracked but WITHOUT secrets
+# If you want to ignore completely, uncomment below:
+# appsettings.json
+
+############################
+# NuGet
+############################
+*.nupkg
+packages/
+.nuget/
+
+############################
+# Publish output
+############################
+publish/
+wwwroot/
+
+############################
+# Test results
+############################
+TestResults/
+*.trx
+*.coverage
+
+############################
+# Entity Framework
+############################
+Migrations/*.Designer.cs
+*.dbmdl
+
+############################
+# Azure / deployment
+############################
+*.PublishSettings
+*.azurePubxml
+
+############################
+# MAUI / Xamarin (optional if shared repo)
+############################
+*.apk
+*.aab
+*.keystore
+
+############################
+# Node (if React inside same repo)
+############################
+node_modules/
+dist/
+build/
